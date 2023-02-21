@@ -7,20 +7,18 @@ const BlogPost = (props) => {
         <BlogCard className='blog-post'>
             <div>
                 <div>
-                    <h2>Title</h2>
+                    <h2>{props.title}</h2>
                 </div>
                 <div>
-                    <p>Author</p>
+                    <h5>By: {props.author}</h5>
                 </div>
                 <div>
-                    <p>Date</p>
+                    <p>{props.date}</p>
                 </div>
                 <div>
-                    <input type='textarea' />
+                    <p>{props.post}</p>
                 </div>
             </div>
-            
-
         </BlogCard>
     )
 }
