@@ -1,9 +1,11 @@
 import './Home.css';
+import { Link } from 'react-router-dom';
 // import BlogPost from '../Blog/BlogPost';
 // import Nav from '../UI/Nav';
 import AllPosts from '../Blog/AllPosts';
+import CreatePost from './CreatePost';
 
-const Home = () => {
+const Home = (props) => {
     const blogPosts = [
         {
           id: 1,
@@ -36,10 +38,15 @@ const Home = () => {
     ]
 
     return (
-        <div>
+        <div className={props.className}>
             {/* <Nav /> */}
             <h1>Home Page</h1>
-            <AllPosts items={blogPosts} />
+            <div>
+              <Link to='/create-post'>+ Post</Link>
+            </div>
+            <div>
+              <AllPosts items={blogPosts} />
+            </div>
         </div>
     )
 }

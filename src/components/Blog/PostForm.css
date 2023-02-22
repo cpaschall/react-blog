@@ -1,0 +1,19 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px white solid;
+}
+
+.new-post__controls {
+    flex-direction: inherit;
+}
+
+.new-post__control {
+    flex-direction: inherit;
+}
+
+.new-post__actions {
+
+}
