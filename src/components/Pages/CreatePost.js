@@ -14,7 +14,7 @@ const CreatePost = (props) => {
     
     return (
         <div className="home-dark">
-            <PostForm onSavePostData={savePostDataHandler}/>
+            <PostForm className="form-card" onSavePostData={savePostDataHandler}/>
         </div>
     )
 }

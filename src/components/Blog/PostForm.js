@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Button, Form } from 'react-bootstrap'
 import './PostForm.css';
 
 const PostForm = (props) => {
@@ -43,7 +44,7 @@ const PostForm = (props) => {
     }
 
     return (
-        <form onSubmit={submitHandler}>
+        <form className="form-card" onSubmit={submitHandler}>
             <div className='new-post__controls'>
                 <div className='new-post__control'>
                     <label>Title</label>
@@ -59,12 +60,12 @@ const PostForm = (props) => {
                 </div>
                 <div className='new-post__control'>
                     <label>Post Text</label>
-                    <input type='textarea' value={enteredPost} onChange={postChangeHandler} />
+                    <textarea rows="10" cols="50" value={enteredPost} onChange={postChangeHandler} />
                 </div>
             </div>
             <div className='new-post__actions'>
                 <Link to='/'>
-                    <button type='submit'>Add Post</button>
+                    <Button type='submit' variant="secondary" className="post-btn">Add Post</Button>
                 </Link>
             </div>
         </form>
