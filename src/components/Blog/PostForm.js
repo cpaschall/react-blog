@@ -60,7 +60,7 @@ const PostForm = (props) => {
                 </div>
                 <div className='new-post__control'>
                     <label>Post Text</label>
-                    <textarea rows="10" cols="50" value={enteredPost} onChange={postChangeHandler} />
+                    <textarea rows="20" cols="80" value={enteredPost} onChange={postChangeHandler} />
                 </div>
             </div>
             <div className='new-post__actions'>

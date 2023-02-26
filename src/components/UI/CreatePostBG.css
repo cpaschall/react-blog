@@ -1,0 +1,66 @@
+.cpbg-main {
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; */
+    background-color: rgb(0, 0, 0);
+    /* height: 100vh; */
+    /* z-index: 2; */
+}
+
+.cpbg-text {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* font-family: 'Miss Fajardose', cursive; */
+    font-family: 'Monsieur La Doulaise', cursive;
+    color: rgba(0, 245, 255, 0.25);
+    font-size: 3rem;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.cpbg-text__16FF00 {
+    color: rgba(22, 255, 0, 0.25);
+    /* margin: 0, 20px, 0, 0; */
+    padding: 25px;
+}
+
+.cpbg-text__FB2576 {
+    color: rgba(251, 37, 118, 0.25);
+    padding: 5px;
+
+}
+
+.cpbg-text__D2001A {
+    color: rgba(210, 0, 26, 0.25);
+    padding: 15px;
+}
+
+.cpbg-text__FFFBAC {
+    color: rgba(255, 251, 172, .25);
+    padding: 10px;
+}
+
+.cpgb-text__FF4949 {
+    color: rgba(255, 73, 73, 0.25)
+}
+
+.cpbg-text__F2E7D5 {
+    color: rgba(242, 231, 213, 0.25)
+}
+
+.cpbg-text__8D9EFF {
+    color: rgba(141, 158, 255, 0.25)
+}
+
+.cpbg-text__FFED00 {
+    color: rgba(255, 237, 0, 0.25)
+}
+
+.cpbg-text__FFFBAC {
+    color: rgba(255, 251, 172, .25)
+}
+
+.cpbg-text__C47AFF {
+    color: rgba(196, 122, 255, 0.25)
+}

@@ -1,6 +1,7 @@
 import './CreatePost.css';
 import Home from './Home';
 import PostForm from '../Blog/PostForm';
+import CreatePostBG from '../UI/CreatePostBG';
 
 const CreatePost = (props) => {
     const savePostDataHandler = (enteredPostData) => {
@@ -14,7 +15,9 @@ const CreatePost = (props) => {
     
     return (
         <div className="home-dark">
-            <PostForm className="form-card" onSavePostData={savePostDataHandler}/>
+            <CreatePostBG>
+                <PostForm className="form-card" onSavePostData={savePostDataHandler}/>
+            </CreatePostBG>
         </div>
     )
 }

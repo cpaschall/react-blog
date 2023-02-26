@@ -5,13 +5,23 @@ import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import CreatePost from './components/Pages/CreatePost'
 // import BlogPost from './components/Blog/BlogPost';
+import './App.css'
 
 
 function App() {
 
   return (
     <div className="App">
-      <Router>
+      {/* <style>
+      @import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&display=swap');
+      </style> */}
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+      </style>
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Ubuntu:wght@300&display=swap');
+      </style>
+      <Router className="all-routes">
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
