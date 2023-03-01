@@ -44,7 +44,7 @@ const PostForm = (props) => {
     }
 
     return (
-        <form className="form-card" onSubmit={submitHandler}>
+        <form className={props.className} onSubmit={submitHandler}>
             <div className='new-post__controls'>
                 <div className='new-post__control'>
                     <label>Title</label>

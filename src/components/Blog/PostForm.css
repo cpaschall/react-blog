@@ -1,11 +1,12 @@
 .form-card {
     /* font-family: 'Tilt Neon', cursive; */
     /* font-family: 'Roboto Condensed', sans-serif; */
-    font-family: 'Ubuntu', sans-serif;
-    display: flex;
-    flex-direction: column;
+    /* position: relative; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* display: flex; */
+    /* flex-direction: column; */
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
     /* border: 50px solid rgba(87, 155, 177, .5); */
     /* background-color: rgba(87, 155, 177); */
     /* box-shadow: 15px 15px #579BB1; */
@@ -14,10 +15,10 @@
     /* padding: 25px; */
     /* margin: 25px; */
     /* height: 500px; */
-    color: aliceblue;
-    font-size: 1.25rem;
+    /* color: aliceblue; */
+    /* font-size: 1.25rem; */
     /* z-index: 1; */
-    margin-top: -1300px;
+    /* margin-top: -1300px; */
 }
 
 .new-post__controls {

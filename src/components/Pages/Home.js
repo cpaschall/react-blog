@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 // import Nav from '../UI/Nav';
 import AllPosts from '../Blog/AllPosts';
 import CreatePost from './CreatePost';
+import CreatePostBG from '../UI/CreatePostBG';
 
 const Home = (props) => {
     const blogPosts = [
@@ -38,15 +39,19 @@ const Home = (props) => {
     ]
 
     return (
-        <div className={props.className}>
+        <div className='home-main'>
             {/* <Nav /> */}
-            <h1>Home Page</h1>
-            <div>
-              <Link to='/create-post'>+ Post</Link>
-            </div>
-            <div>
-              <AllPosts items={blogPosts} />
-            </div>
+            <CreatePostBG>
+              <div className='all-posts'>
+                <h1>Home Page</h1>
+                <div>
+                  <Link to='/create-post'>+ Post</Link>
+                </div>
+                <div>
+                  <AllPosts items={blogPosts}/>
+                </div>
+              </div>
+            </CreatePostBG>
         </div>
     )
 }

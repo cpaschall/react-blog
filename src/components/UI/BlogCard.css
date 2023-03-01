@@ -1,4 +1,11 @@
 .card {
-    border-radius: 12px;
-    border: 1px solid cadetblue;
+    border-radius: 1px;
+    border: 1px solid #03C4A1;
+    width: 500px;
+    margin: 10px 0;
+    left: 25px;
+    padding: 5px 15px;
+    box-shadow: 1px 1px 3px #00FFAB;
+    background-color: rgba(0, 0, 0, .25);
+    color: aliceblue;
 }

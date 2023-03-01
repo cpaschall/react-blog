@@ -1,0 +1,9 @@
+.home-main {
+    position: relative;
+}
+
+.all-posts {
+    position: absolute;
+    top: 100px;
+    color:aliceblue
+}

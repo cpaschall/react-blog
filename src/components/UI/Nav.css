@@ -1,0 +1,16 @@
+.nav-bar {
+    border-bottom: 2px solid #00FFAB;
+    background-color: #F0EEED;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.nav-bar ul, li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}

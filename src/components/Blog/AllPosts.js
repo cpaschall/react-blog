@@ -3,7 +3,7 @@ import './AllPosts.css';
 
 const AllPosts =(props) => {
     return (
-        <div>
+        <div className={props.className}>
             <BlogPost 
                 title={props.items[0].title}
                 author={props.items[0].author}

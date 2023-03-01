@@ -1,21 +1,16 @@
 .home-dark {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* background-color: #F8F4EA; */
-    /* height: 100vh; */
-    /* width: 100%; */
+    position: relative;
+    /* height: 100%; */
 }
 
-/* .form-card {
+.form-card {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    border: 2px #EB455F solid;
-    background-color: rgba(186, 215, 233, 0.75);
-    border-radius: 12px;
-    width: 500px;
-    padding: 25px;
-    margin: 25px;
-    height: 70vh;
-} */
+    color: aliceblue;
+    font-size: 1.25rem;
+}
