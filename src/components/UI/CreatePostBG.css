@@ -12,55 +12,95 @@
     flex-wrap: wrap;
     position: relative;
     font-family: 'Monsieur La Doulaise', cursive;
-    color: rgba(0, 245, 255, 0.25);
+    color: rgba(0, 245, 255, 0.35);
     font-size: 3rem;
     padding: 10px;
     margin-left: 35px;
 }
 
 .cpbg-text__16FF00 {
-    color: rgba(22, 255, 0, 0.25);
+    color: rgba(22, 255, 0, 0.35);
     position: absolute;
     font-size: 5rem;
-    top: 50px;
+    top: 25px;
+    /* animation: slide-in 0.5s forwards; */
 }
 
+/* .cpbg-text__16FF00:hover {
+    width: 200px;
+} */
+
 .cpbg-text__FB2576 {
-    color: rgba(251, 37, 118, 0.25);
+    color: rgba(251, 37, 118, 0.35);
     position: absolute;
-    left: 500px;
+    font-size: 3rem;
+    left: 325px;
     
 
 }
 
 .cpbg-text__D2001A {
-    color: rgba(210, 0, 26, 0.25);
-    padding: 15px;
+    color: rgba(210, 0, 26, 0.35);
+    position: absolute;
+    font-size: 4rem;
+    top: 215px;
 }
 
 .cpbg-text__FFFBAC {
-    color: rgba(255, 251, 172, .25);
-    padding: 10px;
+    color: rgba(255, 251, 172, .35);
+    /* padding: 10px; */
+    position: absolute;
+    font-size: 6rem;
+    top: 150px;
+    left: 400px
 }
 
 .cpgb-text__FF4949 {
-    color: rgba(255, 73, 73, 0.25)
+    color: rgba(255, 73, 73, 0.35);
+    position: absolute;
+    font-size: 5rem;
+    top: 75px;
+    left: 250px;
 }
 
 .cpbg-text__F2E7D5 {
-    color: rgba(242, 231, 213, 0.25)
+    color: rgba(242, 231, 213, 0.35);
+    position: absolute;
+    font-size: 5rem;
+    top: 300px;
+    left: 175px;
 }
 
 .cpbg-text__8D9EFF {
-    color: rgba(141, 158, 255, 0.25)
+    color: rgba(141, 158, 255, 0.35);
+    position: absolute;
+    font-size: 5rem;
+    top: 15px;
+    left: 550px;
 }
 
 .cpbg-text__FFED00 {
-    color: rgba(255, 237, 0, 0.25)
+    color: rgba(255, 237, 0, 0.35);
+    position: absolute;
+    font-size: 2.5rem;
+    top: 600px;
+    left: 115px;
 }
 
-.cpbg-text__FFFBAC {
-    color: rgba(255, 251, 172, .25)
+.cpbg-text__DF2E38 {
+    color: rgba(223, 46, 56, 0.35);
+    position: absolute;
+    font-size: 2.5rem;
+    top: 600px;
+    left: 115px;
+}
+
+.cpbg-text__C47AFF {
+    color: rgba(196, 122, 255, .5);
+    position: absolute;
+    font-size: 5rem;
+    top: 15px;
+    left: 400px;
 }
 
 .cpbg-text__C47AFF {
