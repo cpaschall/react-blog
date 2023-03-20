@@ -10,7 +10,7 @@ const CreatePost = (props) => {
             id: Math.random().toString()
         };
 
-        props.onAddPost();
+        props.onAddPost(postData);
     }
     
     return (
