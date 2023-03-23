@@ -1,20 +1,24 @@
 .card {
     border-radius: 1px;
     border: 1px solid #03C4A1;
-    width: 500px;
-    height: 400px;
-    margin: 10px;
+    border-radius: 25px;
+    width: 400px;
+    height: 200px;
+    margin: 15px;
     left: 25px;
     padding: 5px 15px;
-    /* box-shadow: 1px 1px 3px #00FFAB; */
-    background-color: rgba(0, 0, 0, .25);
+    box-shadow: 0px 0px 10px #03C4A1;
+    background-color: rgba(0, 0, 0, .75);
     color: aliceblue;
-    flex: 1;
+    /* flex: 1; */
     /* justify-content: center; */
 }
 
 .card:hover {
-    flex: 2;
+    box-shadow: 0px 0px 20px #03C4A1;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* width: 225px; */
+    /* flex: 2; */
     /* height: 410px; */
     /* width: 325px; */
 }

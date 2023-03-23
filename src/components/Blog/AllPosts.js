@@ -10,7 +10,8 @@ const AllPosts =(props) => {
                 title={item.title}
                 author={item.author}
                 // date={props.items[0].date}
-                post={item.post} 
+                post={item.post}
+                bg={item.bg}
                />
             ))}
             {/* <BlogPost 

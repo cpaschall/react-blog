@@ -13,7 +13,8 @@ const blogPosts = [
     title: 'Post 1',
     author: 'Cal',
   //   date: new Date(2023, 1, 3),
-    post: "Lorem ipsum"
+    post: "Lorem ipsum",
+    bg: "../../assets/images/mountain-range.png"
   },
   {
     id: 2,

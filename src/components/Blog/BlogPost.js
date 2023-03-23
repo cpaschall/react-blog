@@ -4,7 +4,7 @@ import './BlogPost.css';
 const BlogPost = (props) => {
 
     return (
-        <BlogCard className='blog-post'>
+        <BlogCard className='blog-post' style={{backgroundImage: props.bg}}>
             <div>
                 <div>
                     <h2>{props.title}</h2>
