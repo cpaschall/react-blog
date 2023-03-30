@@ -1,7 +1,30 @@
+.all-posts {
+    display: flex;
+}
+
+.main-card {
+    border-radius: 1px;
+    border: 1px solid #03C4A1;
+    /* border-radius: 5px; */
+    width: 400px;
+    height: 500px;
+    margin: 15px;
+    left: 25px;
+    padding: 5px 15px;
+    /* box-shadow: 0px 0px 10px #03C4A1; */
+    background-color: rgba(0, 0, 0, .75);
+    color: aliceblue;
+}
+
+.main-card:hover {
+    box-shadow: 0px 0px 20px #03C4A1;
+}
+
 .post-board {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     justify-content: center;
-    align-items: center;
-    width: 100%;
+    /* align-items: center; */
+    /* width: 100%; */
 }

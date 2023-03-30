@@ -3,43 +3,27 @@ import './AllPosts.css';
 
 const AllPosts =(props) => {
     return (
-        <div className='post-board'>
-            {props.items.map((item) => ( 
-               <BlogPost 
-                key={item.id}
-                title={item.title}
-                author={item.author}
-                // date={props.items[0].date}
-                post={item.post}
-                bg={item.bg}
-               />
-            ))}
-            {/* <BlogPost 
-                title={props.items[0].title}
-                author={props.items[0].author}
-                // date={props.items[0].date}
-                post={props.items[0].post}
-            />
-            <BlogPost 
-                title={props.items[1].title}
-                author={props.items[1].author}
-                // date={props.items[1].date}
-                post={props.items[1].post}
-            />
-            <BlogPost 
-                title={props.items[2].title}
-                author={props.items[2].author}
-                // date={props.items[2].date}
-                post={props.items[2].post}
-            />
-            <BlogPost 
-                title={props.items[3].title}
-                author={props.items[3].author}
-                // date={props.items[3].date}
-                post={props.items[3].post}
-            /> */}
+        <div className='all-posts'>
+            <div className='main-article'>
+                <div className='main-card'>
+
+                </div>
+
+            </div>
+            <div className='post-board'>
+                {props.items.map((item) => ( 
+                <BlogPost 
+                    key={item.id}
+                    title={item.title}
+                    author={item.author}
+                    // date={props.items[0].date}
+                    post={item.post}
+                    bg={item.bg}
+                />
+                ))}
+            </div>
         </div>
-    )
+    )   
 }
 
 export default AllPosts;

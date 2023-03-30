@@ -1,0 +1,11 @@
+.post-content {
+    display: flex;
+}
+
+.content-left {
+
+}
+
+.content-right {
+    padding: 0 15px
+}
