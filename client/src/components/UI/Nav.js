@@ -4,6 +4,9 @@ import './Nav.css';
 const Nav = () => {
     return (
         <div className='nav-bar'>
+            <div>
+                Logo
+            </div>
             <ul>
                 <li>
                     <Link to='/'>Home</Link>

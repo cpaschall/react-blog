@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "Post 1",
+      "author": "Cal",
+      "post": "Lorem ipsum"
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "author": "Cal",
+      "post": "Blah Blah"
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "author": "Cal",
+      "post": "Stuff stuff"
+    },
+    {
+      "id": 4,
+      "title": "Post 4",
+      "author": "Cal",
+      "post": "Another post."
+    }
+]

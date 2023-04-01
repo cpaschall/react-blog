@@ -1,14 +1,21 @@
 .nav-bar {
     border-bottom: 2px solid #00FFAB;
     background-color: #F0EEED;
+    position: fixed;
+    height: 100%;
+    width: 100px;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .nav-bar ul {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
 }
-.nav-bar ul, li {
+
+li {
     list-style: none;
     text-decoration: none;
     color: black;

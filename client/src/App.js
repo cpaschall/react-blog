@@ -22,13 +22,14 @@ function App() {
       @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Ubuntu:wght@300&display=swap');
       </style>
       <Router className="all-routes">
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/create-post" element={<CreatePost />} />
-        </Routes>
-
+        <div className='nav-display'>
+          <Nav />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/create-post" element={<CreatePost />} />
+          </Routes>
+        </div>
       </Router>
     </div>
   );

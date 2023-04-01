@@ -40,5 +40,9 @@
 
 .all-routes {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+}
+
+.nav-display {
+  display: flex;
 }

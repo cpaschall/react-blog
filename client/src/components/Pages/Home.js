@@ -53,11 +53,13 @@ const Home = (props) => {
             {/* <Nav /> */}
             <CreatePostBG> 
               <div className='all-posts'>
-                <h1>Home Page</h1>
-                <div>
+                {/* <div className='logo'>
+                  <h1>Home Page</h1>
+                </div> */}
+                <div className='post-link'>
                   <Link to='/create-post'>+ Post</Link>
                 </div>
-                <div>
+                <div className='post-display'>
                   <AllPosts items={blogPosts}/>
                 </div>
               </div>
