@@ -9,7 +9,7 @@ const resolvers = {
 
     Mutation: {
         createArticle: async (parent, args) => {
-            const article = await Articla.create(args);
+            const article = await Article.create(args);
             return article;
         }
     }
