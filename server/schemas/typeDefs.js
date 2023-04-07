@@ -10,7 +10,7 @@ const typeDefs = gql`
     }
 
     type Query {
-        article: [Article]
+        articles: [Article]
     }
 
     type Mutation {

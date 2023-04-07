@@ -2,7 +2,7 @@ const { Article } = require('../models');
 
 const resolvers = {
     Query: {
-        article: async () => {
+        articles: async () => {
             return Article.find({})
         }
     },
